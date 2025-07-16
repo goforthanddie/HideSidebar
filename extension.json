@@ -13,9 +13,9 @@
     }
   },
   "Hooks": {
-    "SkinBuildSidebar": "HideSidebarHooks::efHideSidebar"
+    "SidebarBeforeOutput": "HideSidebarHooks::efHideSidebar"
   },
   "AutoloadClasses": {
-    "HideSidebarHooks": "HideSidebar.hooks.php"
+    "HideSidebarHooks": "includes/HideSidebar.hooks.php"
   }
 }
